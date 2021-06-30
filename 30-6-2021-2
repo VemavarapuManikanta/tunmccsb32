@@ -1,0 +1,32 @@
+import java.util.*;
+class harshad 
+{
+	public static void main(String[] args) 
+	{
+		int sum=0;
+		Scanner sc=new Scanner(System.in);
+         System.out.println("enter the numer");				
+			int t;
+        t=sc.nextInt();
+		int rem=0;
+		for(int i=t;i>0;i=i/10)
+		{
+			rem=rem+i%10;
+		}
+		if(t%rem==0)
+			System.out.println("harshad number");
+		else
+			System.out.println("non harshad number");
+		
+		
+	}
+}
+----------------------
+enter the numer
+123
+non harshad number
+Press any key to continue . . .
+
+
+
+		
